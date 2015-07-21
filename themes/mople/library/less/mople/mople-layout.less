@@ -1,0 +1,198 @@
+//
+// Home Page
+// --------------------------------------------------
+.boxHome {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 15%;
+	
+	ul {
+	  margin-top: 0;
+	  margin-bottom: 0;
+	  padding: 0;
+	}
+	
+	li {
+		list-style: none;
+		
+		.post-meta-key {
+			display: none;
+		}
+	}
+	
+	a {
+		color: @text-color;
+		display: block;
+		padding: 10px;
+	}
+	
+	a:hover {
+		background: lighten(@brand-primary, 50%);
+		text-decoration: none;
+	}
+	
+	h3 {
+		  margin: 0px 0 6px;
+		  text-transform: uppercase;
+	}
+	
+	
+	//Icons	
+	&.box1 {
+		span.icon {background: @boxHomeIcon1;}
+	}
+	&.box2 {
+		span.icon {background: @boxHomeIcon2;}
+	}
+	&.box3 {
+		span.icon {background: @boxHomeIcon3;}
+	}
+	&.box4 {
+		span.icon {background: @boxHomeIcon4;}
+	}
+	&.box5 {
+		span.icon {background: @boxHomeIcon5;}
+	}
+	&.box6 {
+		span.icon {background: @boxHomeIcon6;}
+	}
+	
+	//Borders
+	&.box2,
+	&.box5 {
+		border-right: solid 1px @gray-light;
+		border-left:  solid 1px @gray-light;
+	}
+	
+	
+	span.icon {
+		width: 100px;
+		height: 100px;
+		background-size: 100px 100px !important;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+
+//
+// Contato
+// --------------------------------------------------
+.wpcf7 {
+	input[type="text"],
+	input[type="email"] {
+		  border: none;
+		  border-bottom: solid 1px @gray-light;
+		  font-style: italic;
+		  width: 100%;
+		  margin-bottom: 15px;
+	}
+	
+	textarea {
+	 background: url(../images/textarea-lines.png) repeat-y;
+	 height: 200px;
+	 font: normal 14px;
+	 line-height: 25px;
+	 padding: 2px 10px;
+	 border: none;
+	 width: 100%;
+	}
+	
+}
+
+
+//
+// Media Queries
+// --------------------------------------------------
+
+// Tablet Horizontal
+@media (min-width: 1024px) and (max-width:1200px) {
+	
+	//Navbar
+	.navbar-inverse .navbar-nav > li > a {
+		margin: 0 15px;
+	}
+	
+	
+	.boxHome {
+		//Borders
+		&.box2,
+		&.box5 {
+			border-right: solid 1px @gray-light;
+			border-left:  solid 1px @gray-light;
+		}
+	}
+	
+	hr.homeBoxes {
+		display: block;
+	}
+
+}
+
+
+// Mobile Horizontal Tablet Vertical
+@media (max-width: 1023px) {
+	
+		//Navbar
+	.navbar-inverse .navbar-nav > li > a {
+		margin: 0 5px;
+		font-size: @font-size-base;
+	}
+	
+	.boxHome {
+		//Borders
+		&.box2,
+		&.box5 {
+			border-right: none;
+			border-left:  none;
+		}
+	}
+	
+	hr.homeBoxes {
+		display: none;
+	}
+	
+	//Footer
+	.footerShareIcons {
+		text-align: center;
+	}
+	
+	//Headers
+	h2, .h2 { font-size: @font-size-large; }
+
+}
+
+// Mobile Vertical
+@media (max-width: 479px) {
+
+	.boxHome {
+		//Borders
+		&.box2,
+		&.box5 {
+			border-right: none;
+			border-left:  none;
+		}
+	
+	}
+	
+	hr.homeBoxes {
+		display: none;
+	}
+	
+	//Footer
+	.footerShareIcons {
+		text-align: center;
+	}
+	
+	//Headers
+	h2, .h2 { font-size: @font-size-large; }
+}
+
+
+
+
+
+
+
+
+

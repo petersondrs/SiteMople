@@ -1,0 +1,69 @@
+/******************************************************************
+Site Name: BREW
+Author: Dan Brown
+
+Stylesheet: Footer
+
+******************************************************************/
+
+#footer {
+  background: @brand-primary;
+  padding-top: 10px;
+  margin-top: 60px;
+  clear: both;
+  color: #fff;
+  h4 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+  a {color: #fff;}
+  li {
+    padding: 7px 0;
+    border-bottom: 1px dotted rgba(255,255,255,.2);
+    margin: 0px 0px;
+  }
+  .widgettitle {
+    margin: 0;
+    padding: 0 0 15px 0;
+    border-bottom: none;
+  }
+
+}
+
+#footer-wrapper {
+  margin-bottom: 10px;
+
+  .copyright {
+    margin-top: 15px;
+    font-size: @font-size-base;
+  }
+}
+
+#sub-floor {
+  color: #aaa;
+  background: darken(@brand-primary, 15%);
+  padding: 3px 0;
+}
+
+.copyright {
+  text-align: center;
+  @media (min-width: @screen-md) {
+    text-align: left;
+    font-size:@font-size-small;
+    color: white;
+  }
+}
+
+.attribution {
+  text-align: center;
+  @media (min-width: @screen-md) {
+    text-align: right;
+  }
+}
+
+.widgetFooter {
+  padding-bottom: 25px;
+  @media (min-width: @screen-md) {
+    padding-bottom: 0px;
+  }
+}
