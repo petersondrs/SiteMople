@@ -8252,6 +8252,42 @@ This is just for the sample BREW site.  Feel free to delete
   border: none;
   width: 100%;
 }
+.blog-posts-list:nth-child(even) {
+  margin-bottom: 65px;
+}
+.blog-posts-list:nth-child(even) h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.blog-posts-list:nth-child(even) a {
+  color: #363636;
+}
+.blog-posts-list:nth-child(even) .img-blog {
+  float: left;
+  margin-right: 25px;
+}
+.blog-posts-list:nth-child(even) .text-blog {
+  float: left;
+  width: 45%;
+}
+.blog-posts-list:nth-child(odd) {
+  margin-bottom: 65px;
+}
+.blog-posts-list:nth-child(odd) h3 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.blog-posts-list:nth-child(odd) a {
+  color: #363636;
+}
+.blog-posts-list:nth-child(odd) .img-blog {
+  float: right;
+  margin-left: 25px;
+}
+.blog-posts-list:nth-child(odd) .text-blog {
+  float: right;
+  width: 45%;
+}
 @media (min-width: 1024px) and (max-width: 1200px) {
   .navbar-inverse .navbar-nav > li > a {
     margin: 0 15px;
@@ -8285,6 +8321,44 @@ This is just for the sample BREW site.  Feel free to delete
   .h2 {
     font-size: 19px;
   }
+  .blog-posts-list:nth-child(even) {
+    margin-bottom: 65px;
+  }
+  .blog-posts-list:nth-child(even) h3 {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .blog-posts-list:nth-child(even) a {
+    color: #363636;
+  }
+  .blog-posts-list:nth-child(even) .img-blog {
+    float: left;
+    margin-right: 25px;
+    width: 45%;
+  }
+  .blog-posts-list:nth-child(even) .text-blog {
+    float: left;
+    width: 45%;
+  }
+  .blog-posts-list:nth-child(odd) {
+    margin-bottom: 65px;
+  }
+  .blog-posts-list:nth-child(odd) h3 {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .blog-posts-list:nth-child(odd) a {
+    color: #363636;
+  }
+  .blog-posts-list:nth-child(odd) .img-blog {
+    float: right;
+    margin-left: 25px;
+    width: 45%;
+  }
+  .blog-posts-list:nth-child(odd) .text-blog {
+    float: right;
+    width: 45%;
+  }
 }
 @media (max-width: 479px) {
   .boxHome.box2,
@@ -8301,6 +8375,18 @@ This is just for the sample BREW site.  Feel free to delete
   h2,
   .h2 {
     font-size: 19px;
+  }
+  .blog-posts-list:nth-child(even) a {
+    color: #363636;
+  }
+  .blog-posts-list:nth-child(even) .text-blog {
+    width: 100%;
+  }
+  .blog-posts-list:nth-child(odd) a {
+    color: #363636;
+  }
+  .blog-posts-list:nth-child(odd) .text-blog {
+    width: 100%;
   }
 }
 /*
