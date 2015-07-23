@@ -156,10 +156,15 @@
   font-size: @font-size-large;
   line-height: @line-height-computed;
   height: @line-height-computed;
+  
 
   &:hover,
   &:focus {
     text-decoration: none;
+  }
+
+  img {
+  	width: 50%;
   }
 
   @media (min-width: @grid-float-breakpoint) {
@@ -221,7 +226,8 @@ span {
 // the nav the full height of the horizontal nav (above 768px).
 
 .navbar-nav {
-  margin: (@navbar-padding-vertical / 2) -@navbar-padding-horizontal;
+  //margin: (@navbar-padding-vertical / 2) -@navbar-padding-horizontal;
+  margin: 0;
 
   > li > a {
     padding-top:    10px;
