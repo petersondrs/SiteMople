@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Page - Mople Blog
+Template Name: Page Mople Blog
 */
 ?>
 

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Page - Mople
+Template Name: Mople Padrao
 */
 ?>
 
