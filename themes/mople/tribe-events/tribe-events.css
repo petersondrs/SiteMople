@@ -1,0 +1,64 @@
+/* Admin */
+.eventBritePluginPlug {
+    display: none;
+}
+
+/* Cliente */
+#tribe-events-bar {
+  margin-top:20px;
+}
+#tribe-bar-form {
+  background:transparent;
+}
+#tribe-bar-form .tribe-bar-submit input[type="submit"] {
+  background:#008DBD; /* Cor do botão */
+}
+
+.events-list .tribe-events-loop,
+.single-tribe_organizer .tribe-events-loop,
+.single-tribe_venue .tribe-events-loop,
+.tribe-events-day .tribe-events-loop {
+  max-width: 100%;
+}
+.tribe-events-day .tribe-events-day-time-slot .type-tribe_events {
+  margin-left:0;
+}
+
+
+
+/* Events @ List Event Display */
+.tribe-events-event-meta .time-details,
+.tribe-events-list-separator-month {
+  text-transform:capitalize;
+}
+.tribe-events-list .type-tribe_events h2 {
+  font-size:1.4em;
+}
+.tribe-events-event-meta .time-details {
+  font-weight:normal;
+}
+.tribe-events-read-more {
+  float:right;
+  color:#666;
+  margin-right: 10px;
+  margin-bottom: 6px;
+  font-size: 1.2em;
+}
+.tribe-events-read-more:hover {
+  color:#363636;
+}
+.tribe-events-list .type-tribe_events {
+  background: #E0E0E0;
+  padding:0;
+}
+.tribe-events-list-separator-month + .type-tribe_events.tribe-events-first {
+  padding:0;
+}
+.tribe-events-list-event-description p {
+  display:none;
+}
+
+/* Events @ Date Event Display */
+.tribe-events-day .tribe-events-page-title {
+    display: none; /* Erro no ambiente Dev_Adriano */
+}
