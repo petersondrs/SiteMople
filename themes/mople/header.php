@@ -1,5 +1,6 @@
 <!doctype html>
 
+
 <!--[if lt IE 7]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html <?php language_attributes(); ?> class="no-js lt-ie9"><![endif]-->
@@ -33,14 +34,39 @@
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
 		<?php // end of wordpress head ?>
+		<?php if(is_page_template('page-mople-cursos.php')) :?>
+      <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/cursos.css?v=2" media="screen" />
+    <?php endif;?>
 
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
-
+		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/jquery-1.11.3.min.js" ></script>
+		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/jquery.cookie.js" ></script>
+<!--
+		<script>
+			setInterval(function (onload) {
+	            if ($.cookie("css") !== null) {
+	                console.log('cookie existe');
+	                $("#bones-stylesheet-css").attr("href", $.cookie("css"));
+	            }
+	            else {
+	                console.log('cookie expirou');
+	                var random = Math.floor((Math.random() * 3) + 1) - 1;
+	
+	                var styleSheet = $(".bt-theme button").eq(random).attr("rel");
+	
+	                $.cookie("css", styleSheet, { expires: 1 / 100, path: '/' });
+	                $("#bones-stylesheet-css").attr("href", $.cookie("css"));
+	            }
+	
+	            console.log($("#bones-stylesheet-css").attr("href"));
+	        }, 10000);
+		</script>
+-->
+		 
 	</head>
 
 	<body <?php body_class(); ?>>
-
     <header class="header">
 
       <nav role="navigation">
@@ -66,5 +92,11 @@
         </div>
 
       </nav>
+     <div class="col-md-2 col-md-offset-10 text-right bt-theme" style="display: none;">
+      <button class="bt-theme bt-theme-1" rel="http://mople2.hospedagemdesites.ws/wp-content/themes/mople/library/css/mople-theme-1.css"></button>
+      <button class="bt-theme bt-theme-2" rel="http://mople2.hospedagemdesites.ws/wp-content/themes/mople/library/css/mople-theme-2.css"></button>
+      <button class="bt-theme bt-theme-3" rel="http://mople2.hospedagemdesites.ws/wp-content/themes/mople/library/css/mople-theme-3.css"></button>
+  	</div>
+
 
 		</header> <?php // end header ?>

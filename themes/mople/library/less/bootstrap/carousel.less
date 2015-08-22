@@ -6,6 +6,7 @@
 // Wrapper for the slide container and indicators
 .carousel {
   position: relative;
+  margin-bottom: 40px;
 }
 
 .carousel-inner {
@@ -154,11 +155,11 @@
 
   li {
     display: inline-block;
-    width:  10px;
-    height: 10px;
+    width:  13px;
+    height: 13px;
     margin: 1px;
     text-indent: -999px;
-    border: 1px solid @carousel-indicator-border-color;
+    border: 10px solid @gray; 
     border-radius: 10px;
     cursor: pointer;
 
@@ -175,9 +176,10 @@
   }
   .active {
     margin: 0;
-    width:  12px;
-    height: 12px;
+    width:  13px;
+    height: 13px;
     background-color: @carousel-indicator-active-bg;
+    border: 10px solid @carousel-indicator-border-color; 
   }
 }
 

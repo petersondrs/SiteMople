@@ -2,30 +2,7 @@
 // Variables
 // --------------------------------------------------
 
-// Font-Face
-@font-face {
-font-family: Calibri;
-src: url(/mople/fonts/calibri/Calibri.otf);
-font-weight: normal;
-}
 
-@font-face {
-font-family: Calibri-italic;
-src: url(/mople/fonts/calibri/Calibri Italic.otf);
-font-weight: normal;
-}
-
-@font-face {
-font-family: Calibri-bold;
-src: url(/mople/fonts/calibri/Calibri Bold.otf);
-font-weight: normal;
-}
-
-@font-face {
-font-family: Calibri-bold-italic;
-src: url(/mople/fonts/calibri/Calibri Bold Italic.otf);
-font-weight: normal;
-}
 
 //== Colors
 //
@@ -33,7 +10,7 @@ font-weight: normal;
 
 @gray-darker:            lighten(#000, 13.5%); // #222
 @gray-dark:              lighten(#000, 20%);   // #333
-@gray:                   lighten(#000, 33.5%); // #555
+@gray:                   #8d8d8d; // #555
 @gray-light:             #bebebe;
 @gray-lighter:           lighten(#000, 93.5%); // #eee
 
@@ -766,13 +743,13 @@ font-weight: normal;
 
 @carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6);
 
-@carousel-control-color:                      #fff;
+@carousel-control-color:                      @gray-dark;
 @carousel-control-width:                      15%;
-@carousel-control-opacity:                    .5;
-@carousel-control-font-size:                  20px;
+@carousel-control-opacity:                    1;
+@carousel-control-font-size:                  25px;
 
-@carousel-indicator-active-bg:                #fff;
-@carousel-indicator-border-color:             #fff;
+@carousel-indicator-active-bg:                @brand-primary;
+@carousel-indicator-border-color:             @brand-primary;
 
 @carousel-caption-color:                      #fff;
 

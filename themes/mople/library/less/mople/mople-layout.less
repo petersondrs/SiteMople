@@ -75,25 +75,6 @@
 }
 
 
-.blog-posts-list {
-	//Icons	
-	.date {background: @iconDate;}
-	.video {background: @iconVideo;}
-	.registration {background: @iconInscrition;}
-	.pdf {background: @iconPDF;}
-	
-	a.icon {
-		width: 38px;
-		height: 35px;
-		background-size: 38px 35px !important;
-		display: inline-block;
-		margin: 0 auto;
-	}
-}
-
-
-
-
 //
 // Contato
 // --------------------------------------------------
@@ -163,6 +144,60 @@
 	}
 }
 
+// Cousers 
+li.ecs-event {
+	list-style: none;
+}
+
+.course-infos {
+	.top{
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+.course_item {
+	
+	h3 {
+		margin-top: 0px;
+	}
+	
+	//Icons	
+	.date {background: @iconDate;}
+	.video {background: @iconVideo;}
+	.registration {background: @iconInscrition;}
+	.pdf {background: @iconPDF;}
+	
+	a.icon {
+		width: 25px;
+		height: 23px;
+		background-size: 25px 23px !important;
+		display: inline-block;
+		margin: 0 auto;
+	} 
+	
+	.course-description {
+		margin-top: 10px;
+	}
+}
+
+.combo-list-courses {
+	.box { 
+	    margin-bottom: 65px;
+	    background: #bebebe;
+	    padding-top: 15px;
+	    height: 50px;
+	    color: white;
+	    text-transform: uppercase;
+	}
+	
+	select {
+		width: 100%;
+		text-transform: uppercase;
+	}
+}
+
+
 //
 // Media Queries
 // --------------------------------------------------
@@ -222,7 +257,17 @@
 	//Headers
 	h2, .h2 { font-size: @font-size-large; }
 	
-	
+	//
+	// Coursee
+	// --------------------------------------------------
+	.combo-list-courses {
+		.box { 
+		    margin-bottom: 0px;
+		    padding-top: 5px;
+		    height: 55px;
+		}
+	}
+		
 	//
 	// Blog
 	// --------------------------------------------------
@@ -299,7 +344,7 @@
 	
 	//Headers
 	h2, .h2 { font-size: @font-size-large; }
-	
+
 	
 	//
 	// Blog
@@ -330,9 +375,27 @@
 	
 }
 
-
-
-
+// BT Theme 
+.bt-theme{
+	button {
+	    margin-right: 5px;
+	    border: none;
+	    border-radius: 2px;
+	    width: 15px;
+	    height: 15px;
+	    margin-top: 10px;
+	}
+	
+	.bt-theme-1 {
+		background: #28AAE2;
+	}
+	.bt-theme-2 {
+		background: #F37021;
+	}
+	.bt-theme-3 {
+		background: #A6CE39;
+	}	
+}
 
 
 

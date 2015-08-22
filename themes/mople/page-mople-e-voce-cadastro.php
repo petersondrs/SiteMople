@@ -20,6 +20,24 @@ Template Name: Mople e Voce Cadastro
 				<?php endwhile; ?>
 				</div>
 		    </div>
+<!--
+		    
+		    
+		    
+		    <div class="row">
+			    <select>
+				    
+				<?php $my_query = new WP_Query('tribe_events_cat=cursos-mople'); ?> 
+				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+				<option>
+					<?php the_title(); ?>
+				</option>
+				<?php endwhile; ?>
+				
+			</select>
+
+		    </div>
+-->
 		</div> <?php // end #content ?>
     </div> <!-- end ./container -->
 
