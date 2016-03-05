@@ -76,3 +76,22 @@ div.wpcf7 div.ajax-error {
 div.wpcf7 .placeheld {
 	color: #888;
 }
+
+div.wpcf7 .sendForm{
+    display: inline-block;
+    float: left;
+    height: 100%;
+}
+
+div.wpcf7 .contactForm {
+     float:left;   
+}
+
+div.wpcf7 .contactForm textarea {
+     resize:none;   
+}
+
+div.wpcf7 .btn_sendForm {
+    margin-left: 25px;
+    margin-top: 436px;
+}
