@@ -18,9 +18,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php
 global $more;
 $more = false;
-
-
-
 ?>
 
 <div class="tribe-events-loop vcalendar">
@@ -33,7 +30,7 @@ $more = false;
 
 		<!-- Event  -->
 		<?php 
-			if (get_field('list_soon') || $list_days = null || !$list_days) {
+			if (get_field('list_soon')) {
 				$list_soonClass = 'hide';
 				$list_soonText = '[Em Breve] ';
 			}
