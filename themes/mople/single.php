@@ -66,7 +66,10 @@
 
 
 						</article> <?php // end article ?>
-
+						<div style="margin-bottom: 20px">
+						<?php echo do_shortcode('[ssba]'); ?>
+						</div>
+						
 					<?php get_template_part( 'author-info' ); ?>
 
 					<?php if ( is_single() ) {?>
@@ -118,5 +121,6 @@
 			</div> <?php // end #content ?>
 
     </div> <?php // end ./container ?>
+
 
 <?php get_footer(); ?>

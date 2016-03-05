@@ -10,10 +10,10 @@ Template Name: Page Mople Blog
     <div class="container">
 		<div id="content" class="clearfix">
 			<div class="row">
-				<div class="col-md-12 clearfix" role="main">
+				<div class="col-md-8 col-md-offset-2 clearfix" role="main">
 				<?php $my_query = new WP_Query('p=86'); ?> 
 				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-				<img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>" class="img-responsive center-block" />
+				<img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>" class="img-responsive center-block header-post-image" />
 				<?php endwhile; ?>
 				
 				</div>
@@ -28,7 +28,7 @@ Template Name: Page Mople Blog
 						<div class="text-blog">
 							<a href="<?php the_permalink(); ?>">
 								<h3><?php the_title(); ?></h3>
-								<?php the_excerpt(); ?>
+								<?php the_excerpt('Leia mais'); ?>
 							</a>
 						</div>
 					</div>

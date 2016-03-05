@@ -27,10 +27,12 @@
 
 
 /* Events @ List Event Display */
-.tribe-events-event-meta .time-details,
+/* .tribe-events-event-meta .time-details, */
 .tribe-events-list-separator-month {
   text-transform:capitalize;
 }
+
+
 .tribe-events-list .type-tribe_events h2 {
   font-size:1.4em;
 }
@@ -56,6 +58,20 @@
 }
 .tribe-events-list-event-description p {
   display:none;
+}
+
+/* Remover imagem da listagem */
+.tribe-events-list .tribe-events-event-image {
+	display:none;
+	visibility:hidden;
+}
+
+/* Layout dos itens */
+.hentry.vevent.type-tribe_events {
+    margin-bottom: 18px;
+}
+.tribe-events-list .tribe-events-event-image + div.tribe-events-content {
+	width:100%;
 }
 
 /* Events @ Date Event Display */

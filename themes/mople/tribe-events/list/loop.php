@@ -1,3 +1,5 @@
+
+
 <?php
 /**
  * List View Loop
@@ -24,11 +26,13 @@ $more = false;
 		<?php do_action( 'tribe_events_inside_before_loop' ); ?>
 
 		<!-- Month / Year Headers -->
-		<?php tribe_events_list_the_date_headers(); ?>
+		<?php tribe_events_list_the_date_headers(); ?> 
 
 		<!-- Event  -->
-		<div id="post-<?php the_ID() ?>" class="<?php tribe_events_event_classes() ?>">
-			<?php tribe_get_template_part( 'list/single', 'event' ) ?>
+		<div id="course_<?php the_ID() ?>" class="course_item <?php tribe_events_event_classes() ?> " name="<?php the_title(); ?>">
+			<?php tribe_get_template_part( 'list/single', 'event' ) ?> 
+				
+
 		</div><!-- .hentry .vevent -->
 
 

@@ -1,0 +1,82 @@
+
+/* Evento Simples */
+.ecs-event {
+    border-bottom: 1px solid #bebebe;
+    padding: 40px 0;
+    list-style: none;
+    min-height: 320px;
+}
+
+.ecs-event .entry-title {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Imagem do Post */
+.ecs-event img.wp-post-image {
+    float:right;
+    margin: 0 0 0 20px;
+}
+
+.ecs-event .ecs-excerpt {
+    margin-bottom:0;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 7px;
+}
+
+.ecs-event .moreInfo {
+    height: 35px;
+    width: auto;
+    margin-top:30px;
+}
+
+.ecs-event .moreInfo > p {
+    float: left;
+    margin-top: 15px;
+    margin-right:5px;
+}
+
+.ecs-event .moreInfo a.icon,
+.ecs-event .moreInfo a.icon>img {
+    min-width:30px;
+    min-height:30px;
+    margin-right: 5px;
+}
+
+.ecs-event .moreInfo a.date {
+    width: 32px;
+    height: 34px;
+}
+
+.ecs-event .moreInfo a.video {
+    width: 32px;
+    height: 34px;
+}
+
+.ecs-event .moreInfo a.inscription {
+    width: 32px;
+    height: 34px;
+}
+
+.ecs-event .moreInfo a.download {
+    width: 32px;
+    height: 34px;
+}
+
+.ecs-event .basicInfo p,
+.ecs-event .basicInfo span {
+    display:inline-block;
+}
+.ecs-event .basicInfo p {
+    font-weight: bold;
+    margin-bottom:0;
+    margin-right: 5px;
+}
+
+.basicInfo.instrutor,
+.basicInfo.divider {
+    float: left;
+    margin-right: 10px;
+}

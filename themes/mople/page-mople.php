@@ -8,9 +8,9 @@ Template Name: Mople Padrao
 
       <div class="container">
 
-        <div id="content" class="clearfix row">
+        <div id="content" class="clearfix">
         
-          <div id="main" class="col-md-10 col-md-offset-1 clearfix" role="main">
+          <div id="main" class="clearfix" role="main">
 
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             

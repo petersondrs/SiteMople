@@ -1,0 +1,1106 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: Mople\n"
+"POT-Creation-Date: 2015-08-23 17:33-0300\n"
+"PO-Revision-Date: 2015-08-23 17:56-0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: Adriano Caheté\n"
+"Language: pt_BR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: library/admin\n"
+"X-Poedit-SearchPathExcluded-2: style.css\n"
+
+#: archive-custom_type.php:22
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span>."
+msgstr ""
+
+#: archive-custom_type.php:22 functions.php:218 single-custom_type.php:32
+#: taxonomy-custom_cat.php:34
+msgid "F jS, Y"
+msgstr ""
+
+#: archive-custom_type.php:46 archive.php:95 search.php:50
+#: taxonomy-custom_cat.php:57
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: archive-custom_type.php:47 archive.php:96 search.php:51
+#: taxonomy-custom_cat.php:58
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: archive-custom_type.php:56 archive.php:105 search.php:60
+#: single-custom_type.php:58 single.php:102 taxonomy-custom_cat.php:67
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: archive-custom_type.php:59 archive.php:108 search.php:63
+#: single-custom_type.php:61 single.php:105 taxonomy-custom_cat.php:70
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: archive-custom_type.php:62
+msgid "This is the error message in the custom posty type archive template."
+msgstr ""
+
+#: archive.php:13 taxonomy-custom_cat.php:24
+msgid "Posts Categorized:"
+msgstr ""
+
+#: archive.php:18
+msgid "Posts Tagged:"
+msgstr ""
+
+#: archive.php:27
+msgid "Posts By:"
+msgstr ""
+
+#: archive.php:32
+msgid "Daily Archives:"
+msgstr ""
+
+#: archive.php:37
+msgid "Monthly Archives:"
+msgstr ""
+
+#: archive.php:42
+msgid "Yearly Archives:"
+msgstr ""
+
+#: archive.php:73 single.php:56
+msgid "Pages:"
+msgstr ""
+
+#: archive.php:80 search.php:34 single.php:63
+#, php-format
+msgid "in %1$s&nbsp;&nbsp;"
+msgstr ""
+
+#: archive.php:80 search.php:34 single.php:63
+msgid "<i class=\"fa fa-tags\"></i>"
+msgstr ""
+
+#: archive.php:111
+msgid "This is the error message in the archive.php template."
+msgstr ""
+
+#: author-info.php:15
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:25
+msgid "<span>No</span> Responses"
+msgstr ""
+
+#: comments.php:25
+msgid "<span>One</span> Response"
+msgstr ""
+
+#: comments.php:25
+msgid "<span>%</span> Response"
+msgid_plural "<span>%</span> Responses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:50
+msgid "<i class=\"fa fa-chevron-left\"></i>"
+msgstr ""
+
+#: comments.php:53
+msgid "Next Comments  "
+msgstr ""
+
+#: comments.php:62
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:62
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:70
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: comments.php:78
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:78
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:78
+msgid "Log out"
+msgstr ""
+
+#: comments.php:78 library/brew.php:28
+msgid "&raquo;"
+msgstr ""
+
+#: comments.php:85
+msgid "Name"
+msgstr ""
+
+#: comments.php:85 comments.php:90
+msgid "(required)"
+msgstr ""
+
+#: comments.php:86
+msgid "Your Name*"
+msgstr ""
+
+#: comments.php:90
+msgid "Mail"
+msgstr ""
+
+#: comments.php:91
+msgid "Your E-Mail*"
+msgstr ""
+
+#: comments.php:92
+msgid "(will not be published)"
+msgstr ""
+
+#: comments.php:96
+msgid "Website"
+msgstr ""
+
+#: comments.php:97
+msgid "Got a website?"
+msgstr ""
+
+#: comments.php:104
+msgid "Your Comment here..."
+msgstr ""
+
+#: comments.php:107
+msgid "Submit"
+msgstr ""
+
+#: comments.php:140
+msgid "Trackbacks and Pingbacks:"
+msgstr ""
+
+#: functions.php:113
+msgid "Sidebar 1"
+msgstr ""
+
+#: functions.php:114
+msgid "The first (primary) sidebar."
+msgstr ""
+
+#: functions.php:126
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:127
+msgid "The first footer widget."
+msgstr ""
+
+#: functions.php:136
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:137
+msgid "The second footer widget."
+msgstr ""
+
+#: functions.php:146
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:147
+msgid "The third footer widget."
+msgstr ""
+
+#: functions.php:156
+msgid "Footer Widget 4"
+msgstr ""
+
+#: functions.php:157
+msgid "The fourth footer widget."
+msgstr ""
+
+#: functions.php:217
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: functions.php:219
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:222
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:241
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\"></span>"
+msgstr ""
+
+#: library/admin.php:66
+msgid "j F Y @ g:i a"
+msgstr ""
+
+#: library/admin.php:78
+msgid "Recently on Themble (Customize on admin.php)"
+msgstr ""
+
+#: library/admin.php:125
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"http://yoursite.com\" "
+"target=\"_blank\">Your Site Name</a></span>. Built using <a href=\"http://"
+"themble.com/bones\" target=\"_blank\">Bones</a>."
+msgstr ""
+"<span id=\"footer-thankyou\">Desenvolvido por Peterson Ramos & <a href="
+"\"http://www.profolio.com.br/\" target=\"_blank\">Adriano Caheté</a></span>"
+
+#: library/bones.php:227 library/bones.php:243
+msgid "The Main Menu"
+msgstr ""
+
+#: library/bones.php:298
+msgid "No Related Posts Yet!"
+msgstr ""
+
+#: library/bones.php:346
+msgid "Read"
+msgstr ""
+
+#: library/bones.php:346
+msgid "Read More"
+msgstr "Leia Mais"
+
+#: library/bones.php:361
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: library/brew.php:14
+msgid "Continue Reading..."
+msgstr ""
+
+#: library/brew.php:28
+msgid "&laquo"
+msgstr ""
+
+#: library/custom-post-type.php:31
+msgid "Custom Types"
+msgstr ""
+
+#: library/custom-post-type.php:32
+msgid "Custom Post"
+msgstr ""
+
+#: library/custom-post-type.php:33
+msgid "All Custom Posts"
+msgstr ""
+
+#: library/custom-post-type.php:34
+msgid "Add New"
+msgstr ""
+
+#: library/custom-post-type.php:35
+msgid "Add New Custom Type"
+msgstr ""
+
+#: library/custom-post-type.php:36
+msgid "Edit"
+msgstr ""
+
+#: library/custom-post-type.php:37
+msgid "Edit Post Types"
+msgstr ""
+
+#: library/custom-post-type.php:38
+msgid "New Post Type"
+msgstr ""
+
+#: library/custom-post-type.php:39
+msgid "View Post Type"
+msgstr ""
+
+#: library/custom-post-type.php:40
+msgid "Search Post Type"
+msgstr ""
+
+#: library/custom-post-type.php:41
+msgid "Nothing found in the Database."
+msgstr ""
+
+#: library/custom-post-type.php:42
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: library/custom-post-type.php:45
+msgid "This is the example custom post type"
+msgstr ""
+
+#: library/custom-post-type.php:82
+msgid "Custom Categories"
+msgstr ""
+
+#: library/custom-post-type.php:83
+msgid "Custom Category"
+msgstr ""
+
+#: library/custom-post-type.php:84
+msgid "Search Custom Categories"
+msgstr ""
+
+#: library/custom-post-type.php:85
+msgid "All Custom Categories"
+msgstr ""
+
+#: library/custom-post-type.php:86
+msgid "Parent Custom Category"
+msgstr ""
+
+#: library/custom-post-type.php:87
+msgid "Parent Custom Category:"
+msgstr ""
+
+#: library/custom-post-type.php:88
+msgid "Edit Custom Category"
+msgstr ""
+
+#: library/custom-post-type.php:89
+msgid "Update Custom Category"
+msgstr ""
+
+#: library/custom-post-type.php:90
+msgid "Add New Custom Category"
+msgstr ""
+
+#: library/custom-post-type.php:91
+msgid "New Custom Category Name"
+msgstr ""
+
+#: library/custom-post-type.php:105
+msgid "Custom Tags"
+msgstr ""
+
+#: library/custom-post-type.php:106
+msgid "Custom Tag"
+msgstr ""
+
+#: library/custom-post-type.php:107
+msgid "Search Custom Tags"
+msgstr ""
+
+#: library/custom-post-type.php:108
+msgid "All Custom Tags"
+msgstr ""
+
+#: library/custom-post-type.php:109
+msgid "Parent Custom Tag"
+msgstr ""
+
+#: library/custom-post-type.php:110
+msgid "Parent Custom Tag:"
+msgstr ""
+
+#: library/custom-post-type.php:111
+msgid "Edit Custom Tag"
+msgstr ""
+
+#: library/custom-post-type.php:112
+msgid "Update Custom Tag"
+msgstr ""
+
+#: library/custom-post-type.php:113
+msgid "Add New Custom Tag"
+msgstr ""
+
+#: library/custom-post-type.php:114
+msgid "New Custom Tag Name"
+msgstr ""
+
+#: library/metabox/example-functions.php:25
+msgid "Test Metabox"
+msgstr ""
+
+#: library/metabox/example-functions.php:33
+#: library/metabox/example-functions.php:263
+msgid "Test Text"
+msgstr ""
+
+#: library/metabox/example-functions.php:34
+#: library/metabox/example-functions.php:44
+#: library/metabox/example-functions.php:51
+#: library/metabox/example-functions.php:58
+#: library/metabox/example-functions.php:66
+#: library/metabox/example-functions.php:73
+#: library/metabox/example-functions.php:85
+#: library/metabox/example-functions.php:91
+#: library/metabox/example-functions.php:98
+#: library/metabox/example-functions.php:113
+#: library/metabox/example-functions.php:121
+#: library/metabox/example-functions.php:128
+#: library/metabox/example-functions.php:134
+#: library/metabox/example-functions.php:140
+#: library/metabox/example-functions.php:152
+#: library/metabox/example-functions.php:163
+#: library/metabox/example-functions.php:174
+#: library/metabox/example-functions.php:185
+#: library/metabox/example-functions.php:193
+#: library/metabox/example-functions.php:200
+#: library/metabox/example-functions.php:208
+#: library/metabox/example-functions.php:214
+#: library/metabox/example-functions.php:226
+#: library/metabox/example-functions.php:264
+#: library/metabox/example-functions.php:283
+#: library/metabox/example-functions.php:290
+#: library/metabox/example-functions.php:297
+#: library/metabox/example-functions.php:303
+#: library/metabox/example-functions.php:309
+#: library/metabox/example-functions.php:315
+#: library/metabox/example-functions.php:321
+#: library/metabox/example-functions.php:338
+msgid "field description (optional)"
+msgstr ""
+
+#: library/metabox/example-functions.php:43
+msgid "Test Text Small"
+msgstr ""
+
+#: library/metabox/example-functions.php:50
+msgid "Test Text Medium"
+msgstr ""
+
+#: library/metabox/example-functions.php:57
+msgid "Website URL"
+msgstr ""
+
+#: library/metabox/example-functions.php:65
+msgid "Test Text Email"
+msgstr ""
+
+#: library/metabox/example-functions.php:72
+msgid "Test Time"
+msgstr ""
+
+#: library/metabox/example-functions.php:78
+#: library/metabox/example-functions.php:79
+msgid "Time zone"
+msgstr ""
+
+#: library/metabox/example-functions.php:84
+msgid "Test Date Picker"
+msgstr ""
+
+#: library/metabox/example-functions.php:90
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: library/metabox/example-functions.php:97
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: library/metabox/example-functions.php:112
+msgid "Test Money"
+msgstr ""
+
+#: library/metabox/example-functions.php:120
+msgid "Test Color Picker"
+msgstr ""
+
+#: library/metabox/example-functions.php:127
+msgid "Test Text Area"
+msgstr ""
+
+#: library/metabox/example-functions.php:133
+msgid "Test Text Area Small"
+msgstr ""
+
+#: library/metabox/example-functions.php:139
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: library/metabox/example-functions.php:145
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: library/metabox/example-functions.php:146
+msgid "This is a title description"
+msgstr ""
+
+#: library/metabox/example-functions.php:151
+msgid "Test Select"
+msgstr ""
+
+#: library/metabox/example-functions.php:156
+#: library/metabox/example-functions.php:167
+#: library/metabox/example-functions.php:178
+msgid "Option One"
+msgstr ""
+
+#: library/metabox/example-functions.php:157
+#: library/metabox/example-functions.php:168
+#: library/metabox/example-functions.php:179
+msgid "Option Two"
+msgstr ""
+
+#: library/metabox/example-functions.php:158
+#: library/metabox/example-functions.php:169
+#: library/metabox/example-functions.php:180
+msgid "Option Three"
+msgstr ""
+
+#: library/metabox/example-functions.php:162
+msgid "Test Radio inline"
+msgstr ""
+
+#: library/metabox/example-functions.php:173
+msgid "Test Radio"
+msgstr ""
+
+#: library/metabox/example-functions.php:184
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: library/metabox/example-functions.php:192
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: library/metabox/example-functions.php:199
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: library/metabox/example-functions.php:207
+msgid "Test Checkbox"
+msgstr ""
+
+#: library/metabox/example-functions.php:213
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: library/metabox/example-functions.php:218
+msgid "Check One"
+msgstr ""
+
+#: library/metabox/example-functions.php:219
+msgid "Check Two"
+msgstr ""
+
+#: library/metabox/example-functions.php:220
+msgid "Check Three"
+msgstr ""
+
+#: library/metabox/example-functions.php:225
+msgid "Test wysiwyg"
+msgstr ""
+
+#: library/metabox/example-functions.php:232
+msgid "Test Image"
+msgstr ""
+
+#: library/metabox/example-functions.php:233
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: library/metabox/example-functions.php:238
+msgid "Multiple Files"
+msgstr ""
+
+#: library/metabox/example-functions.php:239
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: library/metabox/example-functions.php:245
+msgid "oEmbed"
+msgstr ""
+
+#: library/metabox/example-functions.php:246
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
+"Embeds</a>."
+msgstr ""
+
+#: library/metabox/example-functions.php:255
+msgid "About Page Metabox"
+msgstr ""
+
+#: library/metabox/example-functions.php:276
+msgid "User Profile Metabox"
+msgstr ""
+
+#: library/metabox/example-functions.php:282
+msgid "Extra Info"
+msgstr ""
+
+#: library/metabox/example-functions.php:289
+msgid "Avatar"
+msgstr ""
+
+#: library/metabox/example-functions.php:296
+msgid "Facebook URL"
+msgstr ""
+
+#: library/metabox/example-functions.php:302
+msgid "Twitter URL"
+msgstr ""
+
+#: library/metabox/example-functions.php:308
+msgid "Google+ URL"
+msgstr ""
+
+#: library/metabox/example-functions.php:314
+msgid "Linkedin URL"
+msgstr ""
+
+#: library/metabox/example-functions.php:320
+msgid "User Field"
+msgstr ""
+
+#: library/metabox/example-functions.php:333
+msgid "Theme Options Metabox"
+msgstr ""
+
+#: library/metabox/example-functions.php:337
+msgid "Site Background Color"
+msgstr ""
+
+#: library/metabox/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr ""
+
+#: library/metabox/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr ""
+
+#: library/metabox/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: library/metabox/helpers/cmb_Meta_Box_types.php:150
+msgid "Add Row"
+msgstr ""
+
+#: library/metabox/helpers/cmb_Meta_Box_types.php:178
+#: library/metabox/helpers/cmb_Meta_Box_types.php:547
+#: library/metabox/helpers/cmb_Meta_Box_types.php:590
+msgid "Remove"
+msgstr ""
+
+#: library/metabox/helpers/cmb_Meta_Box_types.php:523
+#: library/metabox/helpers/cmb_Meta_Box_types.php:563
+msgid "Add or Upload File"
+msgstr ""
+
+#: library/metabox/helpers/cmb_Meta_Box_types.php:536
+#: library/metabox/helpers/cmb_Meta_Box_types.php:582
+msgid "Remove Image"
+msgstr ""
+
+#: library/metabox/helpers/cmb_Meta_Box_types.php:547
+#: library/metabox/helpers/cmb_Meta_Box_types.php:590
+msgid "File:"
+msgstr ""
+
+#: library/metabox/helpers/cmb_Meta_Box_types.php:547
+#: library/metabox/helpers/cmb_Meta_Box_types.php:590
+msgid "Download"
+msgstr ""
+
+#: library/metabox/init.php:243
+msgid "Clear"
+msgstr ""
+
+#: library/metabox/init.php:244
+msgid "Default"
+msgstr ""
+
+#: library/metabox/init.php:245
+msgid "Select Color"
+msgstr ""
+
+#: library/metabox/init.php:246
+msgid "Current Color"
+msgstr ""
+
+#: library/metabox/init.php:1185
+msgid "Save"
+msgstr ""
+
+#: library/option-config.php:106
+msgid "Section via hook"
+msgstr ""
+
+#: library/option-config.php:107
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: library/option-config.php:194
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: library/option-config.php:201 library/option-config.php:204
+msgid "Current theme preview"
+msgstr ""
+
+#: library/option-config.php:213
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: library/option-config.php:214
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: library/option-config.php:215 page-full-width.php:35
+#: page-mople-cursos.php:26 page-mople.php:26 page.php:34
+msgid "Tags"
+msgstr ""
+
+#: library/option-config.php:219
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: library/option-config.php:220
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: library/option-config.php:251
+msgid "General Settings"
+msgstr "Opções Gerais"
+
+#: library/option-config.php:257
+msgid "Tracking Code"
+msgstr ""
+
+#: library/option-config.php:258
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr ""
+
+#: library/option-config.php:268
+msgid "Content Settings"
+msgstr "Opções de Conteúdo"
+
+#: library/option-config.php:269
+msgid "Choose how certain content is displayed"
+msgstr ""
+
+#: library/option-config.php:274
+msgid "Breadcrumbs"
+msgstr ""
+
+#: library/option-config.php:275
+msgid "Turn breadcrumbs on or off (site-wide)"
+msgstr ""
+
+#: library/option-config.php:281
+msgid "Author Profiles"
+msgstr ""
+
+#: library/option-config.php:288
+msgid "Display Featured Images"
+msgstr ""
+
+#: library/option-config.php:289
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: library/option-config.php:306
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: library/option-config.php:307
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: library/option-config.php:308
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: library/option-config.php:312
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: library/option-config.php:319 library/option-config.php:354
+msgid "Documentation"
+msgstr ""
+
+#: library/option-config.php:339
+msgid "Theme Information"
+msgstr "Informações do Tema"
+
+#: library/option-config.php:340
+msgid ""
+"<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+msgstr ""
+
+#: library/option-config.php:366
+msgid "Theme Information 1"
+msgstr ""
+
+#: library/option-config.php:367 library/option-config.php:373
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: library/option-config.php:372
+msgid "Theme Information 2"
+msgstr ""
+
+#: library/option-config.php:377
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: library/option-config.php:400
+msgid "BREW Options"
+msgstr "Opções do Tema"
+
+#: library/option-config.php:401
+msgid "Brew Options"
+msgstr "Opções do Tema"
+
+#: library/option-config.php:457
+msgid ""
+"<p>Welcome to the BREW options framework (powered by Redux).  Simple options "
+"are provided.  You may add more by configuring option-config.php</p>"
+msgstr "<p> </p>"
+
+#: library/option-config.php:461
+msgid "<p>Open the pod bay doors, please.</p>"
+msgstr " "
+
+#: page-full-width.php:49 page-mople-cursos.php:38 page-mople.php:38
+#: page.php:46
+msgid "Not Found"
+msgstr ""
+
+#: page-full-width.php:52 page-mople-cursos.php:41 page-mople.php:41
+#: page.php:49
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr ""
+
+#: page-mople-cursos-desenvolvimento-humano.php:26
+#: page-mople-cursos-petroleo-gas.php:26
+msgid "Escolha com facilidade seu curso:"
+msgstr ""
+
+#: page-mople-cursos-desenvolvimento-humano.php:62
+#: page-mople-cursos-petroleo-gas.php:62
+msgid "D d \\d\\e F \\d\\e Y"
+msgstr ""
+
+#: page-mople-cursos-desenvolvimento-humano.php:72
+#: page-mople-cursos-petroleo-gas.php:72
+msgid "Público Alvo:"
+msgstr "Público Alvo:"
+
+#: page-mople-cursos-desenvolvimento-humano.php:77
+#: page-mople-cursos-petroleo-gas.php:77
+msgid "Instrutor:"
+msgstr "Instrutor:"
+
+#: page-mople-cursos-desenvolvimento-humano.php:77
+#: page-mople-cursos-petroleo-gas.php:77
+msgid "Duração:"
+msgstr ""
+
+#: page-mople-cursos-desenvolvimento-humano.php:77
+#: page-mople-cursos-petroleo-gas.php:77
+msgid " horas "
+msgstr "horas"
+
+#: page-mople-cursos-desenvolvimento-humano.php:82
+#: page-mople-cursos-petroleo-gas.php:82
+msgid "Próxima Turma:"
+msgstr "Próxima Turma:"
+
+#: search.php:10
+msgid "Search Results for"
+msgstr ""
+
+#: search.php:30
+msgid "Read more on"
+msgstr ""
+
+#: search.php:66
+msgid "This is the error message in the index.php template."
+msgstr ""
+
+#: searchform.php:12 searchform.php:14
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:12
+msgid "Please activate some Widgets."
+msgstr ""
+
+#: single-custom_type.php:32 taxonomy-custom_cat.php:34
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> filed under "
+"%4$s."
+msgstr ""
+
+#: single-custom_type.php:44
+msgid "Custom Tags:"
+msgstr ""
+
+#: single-custom_type.php:64
+msgid "This is the error message in the single-custom_type.php template."
+msgstr ""
+
+#: single.php:80
+msgid "<i class=\"fa fa-caret-left\"></i>"
+msgstr ""
+
+#: single.php:86
+msgid "<i class=\"fa fa-caret-right\"></i>"
+msgstr ""
+
+#: single.php:108
+msgid "This is the error message in the single.php template."
+msgstr ""
+
+#: taxonomy-custom_cat.php:40
+msgid "Read More &raquo;"
+msgstr ""
+
+#: taxonomy-custom_cat.php:73
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:37
+#: tribe-events/events-meta-box.php:37
+msgid "Time &amp; Date"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:44
+#: tribe-events/events-meta-box.php:44
+#, php-format
+msgid ""
+"You have changed the recurrence rules of this %1$s.  Saving the %1$s will "
+"update all future %2$s.  If you did not mean to change all %2$s, then please "
+"refresh the page."
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:47
+#: tribe-events/events-meta-box.php:47
+#, php-format
+msgid "All Day %s:"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:53
+#: tribe-events/events-meta-box.php:53
+msgid "Start Date &amp; Time:"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:56
+#: tribe-events/admin-views/events-meta-box.php:77
+#: tribe-events/events-meta-box.php:56 tribe-events/events-meta-box.php:77
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:74
+#: tribe-events/events-meta-box.php:74
+msgid "End Date &amp; Time:"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:105
+#: tribe-events/events-meta-box.php:105
+msgid "Location"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:130
+#: tribe-events/events-meta-box.php:130
+#, php-format
+msgid "%s Website"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:133
+#: tribe-events/events-meta-box.php:133
+msgid "URL:"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:148
+#: tribe-events/events-meta-box.php:148
+#, php-format
+msgid "%s Cost"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:151
+#: tribe-events/events-meta-box.php:151
+msgid "Currency Symbol:"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:166
+#: tribe-events/events-meta-box.php:166
+msgctxt "Currency symbol position"
+msgid "Before cost"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:169
+#: tribe-events/events-meta-box.php:169
+msgctxt "Currency symbol position"
+msgid "After cost"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:174
+#: tribe-events/events-meta-box.php:174
+msgid "Cost:"
+msgstr ""
+
+#: tribe-events/admin-views/events-meta-box.php:182
+#: tribe-events/events-meta-box.php:182
+#, php-format
+msgid "Enter a 0 for %s that are free or leave blank to hide the field."
+msgstr ""
+
+#: tribe-events/list/single-event.php:70
+msgid "Find out more"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Mople"
+msgstr "Mople"
+
+#. Theme URI of the plugin/theme
+msgid "http://labs.profolio.com.br/mople/mople-theme"
+msgstr "http://labs.profolio.com.br/mople/mople-theme"
+
+#. Description of the plugin/theme
+msgid "Tema para o site Mople.com.br"
+msgstr "Tema para o site Mople.com.br"
+
+#. Author of the plugin/theme
+msgid "Peterson Ramos & Adriano Caheté"
+msgstr "Peterson Ramos & Adriano Caheté"

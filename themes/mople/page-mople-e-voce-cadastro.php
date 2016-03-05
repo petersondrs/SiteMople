@@ -12,8 +12,8 @@ Template Name: Mople e Voce Cadastro
 			<div class="row">
 				<?php $my_query = new WP_Query('page_id=145'); ?> 
 				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-				<div class="col-sx-12 col-md-10 col-md-offset-1 clearfix" role="main">
-					<img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>" class="img-responsive center-block half-image" />
+				<div class="col-md-8 col-md-offset-2 clearfix" role="main">
+					<img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>" class="img-responsive center-block header-post-image" />
 				</div>
 				<div class="col-sx-12 col-md-10 col-md-offset-1 clearfix" role="main">
 					<?php the_content(); ?>

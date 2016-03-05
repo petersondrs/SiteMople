@@ -1,3 +1,5 @@
+
+
 <?php
 /**
  * List View Single Event
@@ -33,8 +35,10 @@ $organizer = tribe_get_organizer();
 <!-- Event Title -->
 <?php do_action( 'tribe_events_before_the_event_title' ) ?>
 <h2 class="tribe-events-list-event-title entry-title summary">
-	<a class="url" href="<?php echo esc_url( tribe_get_event_link() ); ?>" title="<?php the_title() ?>" rel="bookmark">
-		<?php the_title() ?>
+	
+<!-- 	<a class="url" href="<?php echo esc_url( tribe_get_event_link() ); ?>" title="<?php the_title() ?>" rel="bookmark"> -->
+	<a class="url" href="<?php bloginfo('template_directory'); ?>/treinamentos/<? $valor = get_post_custom_values('tipo'); echo $valor[0]; ?>?hiddenOtherCourses=hidden-courses&courseID=<?php the_ID(); ?>" title="<?php the_title() ?>" rel="bookmark">
+		<?php the_title() ?> 
 	</a>
 </h2>
 <?php do_action( 'tribe_events_after_the_event_title' ) ?>
@@ -46,7 +50,16 @@ $organizer = tribe_get_organizer();
 
 		<!-- Schedule & Recurrence Details -->
 		<div class="updated published time-details">
-			<?php echo tribe_events_event_schedule_details() ?>
+			<?php
+				if(get_field('dias_do_curso'))	{
+					echo '<p clas="date_view">'.get_field('dias_do_curso').'</p>';
+				}
+				else {
+					echo tribe_events_event_schedule_details();
+				}
+			?>
+			
+<!-- 			<?php echo tribe_get_start_time(); ?> -->
 		</div>
 
 		<?php if ( $venue_details ) : ?>
@@ -67,6 +80,6 @@ $organizer = tribe_get_organizer();
 <?php do_action( 'tribe_events_before_the_content' ) ?>
 <div class="tribe-events-list-event-description tribe-events-content description entry-summary">
 	<?php the_excerpt() ?>
-	<a href="<?php echo esc_url( tribe_get_event_link() ); ?>" class="tribe-events-read-more" rel="bookmark"><?php _e( 'Find out more', 'tribe-events-calendar' ) ?> &raquo;</a>
+	<a href="<?php bloginfo('template_directory'); ?>/treinamentos/<? $valor = get_post_custom_values('tipo'); echo $valor[0]; ?>?hiddenOtherCourses=hidden-courses&courseID=<?php the_ID(); ?>" class="tribe-events-read-more" rel="bookmark"><?php _e( 'mais', 'tribe-events-calendar' ) ?></a>
 </div><!-- .tribe-events-list-event-description -->
 <?php do_action( 'tribe_events_after_the_content' ) ?>

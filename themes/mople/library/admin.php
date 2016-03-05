@@ -31,6 +31,7 @@ function disable_default_dashboard_widgets() {
 
 	// removing plugin dashboard boxes
 	remove_meta_box( 'yoast_db_widget', 'dashboard', 'normal' );         // Yoast's SEO Plugin Widget
+	remove_meta_box('tribe_dashboard_widget', 'dashboard', 'normal');	 // Modern Tribe Events
 
 	/*
 	have more plugin widgets you'd like to remove?
@@ -75,7 +76,7 @@ function bones_rss_dashboard_widget() {
 
 // calling all custom dashboard widgets
 function bones_custom_dashboard_widgets() {
-	wp_add_dashboard_widget( 'bones_rss_dashboard_widget', __( 'Recently on Themble (Customize on admin.php)', 'bonestheme' ), 'bones_rss_dashboard_widget' );
+	//wp_add_dashboard_widget( 'bones_rss_dashboard_widget', __( 'Recently on Themble (Customize on admin.php)', 'bonestheme' ), 'bones_rss_dashboard_widget' );
 	/*
 	Be sure to drop any other created Dashboard Widgets
 	in this function and they will all load.
@@ -119,13 +120,5 @@ as things may get funky if WordPress updates. Here
 are a few funtions which you can choose to use if
 you like.
 */
-
-// Custom Backend Footer
-function bones_custom_admin_footer() {
-	_e( '<span id="footer-thankyou">Developed by <a href="http://yoursite.com" target="_blank">Your Site Name</a></span>. Built using <a href="http://themble.com/bones" target="_blank">Bones</a>.', 'bonestheme' );
-}
-
-// adding it to the admin area
-add_filter( 'admin_footer_text', 'bones_custom_admin_footer' );
 
 ?>

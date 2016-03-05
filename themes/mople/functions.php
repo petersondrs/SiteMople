@@ -71,12 +71,12 @@ require_once( 'library/custom-post-type.php' ); // you can disable this if you l
 	- adding custom login css
 	- changing text in footer of admin
 */
-// require_once( 'library/admin.php' ); // this comes turned off by default
+require_once( 'library/admin.php' ); // this comes turned off by default
 /*
 4. library/translation/translation.php
 	- adding support for other languages
 */
-// require_once( 'library/translation/translation.php' ); // this comes turned off by default
+require_once( 'library/translation/translation.php' ); // this comes turned off by default
 
 /************* THUMBNAIL SIZE OPTIONS *************/
 
@@ -243,4 +243,87 @@ function list_pings( $comment, $args, $depth ) {
 		</span>
 	</li>
 <?php } // end list_pings
+
+
+// Custom Functions -- by Adriano Caheté
+// ------------
+
+// Change Login Logo
+function custom_login() {
+    wp_enqueue_style( 'custom-login', get_template_directory_uri() . '/css/login.css' );
+    /*wp_enqueue_script( 'custom-login', get_template_directory_uri() . '/style-login.js' );*/
+}
+
+function custom_login_url() {
+    return home_url();
+}
+
+function custom_login_url_title() {
+    return 'GravitasAP';
+}
+
+// Remove o Howdy
+function change_howdy($translated, $text, $domain) {
+
+    if (!is_admin() || 'default' != $domain)
+        return $translated;
+
+    if (false !== strpos($translated, 'Howdy'))
+        return str_replace('Howdy', 'Welcome', $translated);
+
+    return $translated;
+}
+
+function poweredby_footer_admin () {  
+	echo 'Criado por <a href="#" target="_blank">Peterson Ramos</a> e <a href="http://www.profolio.com.br/?ref=mople" target="_blank">Adriano Caheté</a>';  
+}
+
+// Custom WordPress Admin Color Scheme
+function admin_css() {
+	wp_enqueue_style( 'admin_css', get_template_directory_uri() . '/library/css/admin.css' );
+}
+
+// Remove Theme Editor in Admin
+function remove_editor_menu() {
+	remove_action('admin_menu', '_add_themes_utility_last', 101);
+}
+
+// Remove Dashboard Widgets
+function remove_dashboard_widgets() {
+	//remove_meta_box('dashboard_right_now', 'dashboard', 'normal');   // right now
+	remove_meta_box('dashboard_recent_comments', 'dashboard', 'normal'); // recent comments
+	remove_meta_box('dashboard_incoming_links', 'dashboard', 'normal');  // incoming links
+	remove_meta_box('dashboard_plugins', 'dashboard', 'normal');   // plugins
+
+	remove_meta_box('dashboard_quick_press', 'dashboard', 'normal');  // quick press
+	remove_meta_box('dashboard_recent_drafts', 'dashboard', 'normal');  // recent drafts
+	remove_meta_box('dashboard_primary', 'dashboard', 'normal');   // wordpress blog
+	remove_meta_box('dashboard_secondary', 'dashboard', 'normal');   // other wordpress news
+}
+
+remove_action( 'welcome_panel', 'wp_welcome_panel' );
+
+
+// Security 
+// ------------
+
+// Remove WP Version from header
+remove_action('wp_head', 'wp_generator');
+
+// Remove Update Notice for normal users
+if ( !current_user_can('administrator') ) {
+    add_action( 'init', create_function( '$a', "remove_action( 'init', 'wp_version_check' );" ), 2 );
+    add_filter( 'pre_option_update_core', create_function( '$a', "return null;" ) );
+}
+
+
+add_action('login_enqueue_scripts', 'custom_login');
+add_filter('login_headerurl', 'custom_login_url');
+add_filter('login_headertitle', 'custom_login_url_title');
+add_filter('gettext', 'change_howdy', 10, 3);
+add_filter('admin_footer_text', 'poweredby_footer_admin');
+add_action('admin_print_styles', 'admin_css');
+add_action('_admin_menu', 'remove_editor_menu', 1);
+add_action('admin_init', 'remove_dashboard_widgets');
+
 ?>

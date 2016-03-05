@@ -99,6 +99,22 @@
 	}
 	
 }
+#wpcf7-f269-o1 > form > div:nth-child(3) > div > p > span > input{
+	//border-bottom: none;
+	//font-weight: bold;
+}
+
+//
+// Cadastro
+// --------------------------------------------------
+.hide-dynamic-field {
+	display: none;
+}
+
+.show-dynamic-field .hide-dynamic-field{
+	display: block !important;
+}
+
 
 //
 // Blog
@@ -121,6 +137,15 @@
 	.text-blog {
 		  float: left;
 		  width: 45%;
+		  
+		  a {
+			  cursor: pointer;
+		  }
+		  
+		  a:hover {
+			  text-decoration: none;
+		  }
+		  
 	}
 }
 
@@ -201,22 +226,66 @@ li.ecs-event {
 // Imagens
 // --------------------------------------------------
 
+.img-training {
+	margin-top: 30px; 
+}
+
+
+
+
 .header-post-image {
 	margin-bottom: 50px;
 }
 
 //
+// Forms
+// --------------------------------------------------
+input[type="submit"] {
+	background: #1b96cb !important;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+}
+
+//
+// Tribe Events
+// --------------------------------------------------
+
+.hentry.vevent.type-tribe_events {
+	padding: 10px 10px 0px;
+}
+
+.tribe-events-list-event-title {
+	text-transform: uppercase !important;
+}
+
+.description.entry-summary > .tribe-events-read-more {
+  background: url(../images/plus.png) no-repeat 10px ;
+  background-size: 15px;
+  padding-left:30px;
+}
+
+
+
+//
 // Media Queries
 // --------------------------------------------------
+
+// Large Screens
+@media (min-width: 1200px) {
+	.img-training2 {
+	  float: right;
+	}
+}
 
 // Tablet Horizontal
 @media (min-width: 1024px) and (max-width:1200px) {
 	
 	//Navbar
 	.navbar-inverse .navbar-nav > li > a {
-		margin: 0 12px; 
+		margin: 0 3px; 
+		font-family: @font-family-sans-serif;
 	}
-	
 	
 	.boxHome {
 		//Borders
@@ -230,6 +299,19 @@ li.ecs-event {
 	hr.homeBoxes {
 		display: block;
 	}
+	
+	//
+	// Carousel
+	// --------------------------------------------------
+	.carousel {
+    	margin-bottom: 60px;
+	}
+	
+	.carousel-indicators {
+		top: 540px;
+	  }
+	  
+
 
 }
 
@@ -237,10 +319,11 @@ li.ecs-event {
 // Mobile Horizontal Tablet Vertical
 @media (max-width: 1023px) {
 	
-		//Navbar
+	//Navbar
 	.navbar-inverse .navbar-nav > li > a {
-		margin: 0 5px;
+		margin: 0 1px;
 		font-size: @font-size-base;
+		font-family: @font-family-sans-serif;
 	}
 	
 	.boxHome {
@@ -269,7 +352,7 @@ li.ecs-event {
 	// --------------------------------------------------
 	.combo-list-courses {
 		.box { 
-		    margin-bottom: 0px;
+		    margin-bottom: 20px;  
 		    padding-top: 5px;
 		    height: 55px;
 		}
@@ -324,6 +407,14 @@ li.ecs-event {
 			width: 45%;
 		}
 	}
+	
+	//
+	// Carousel
+	// --------------------------------------------------
+	
+	.carousel-indicators {
+		top: 400px;
+	  }
 
 }
 
@@ -379,7 +470,10 @@ li.ecs-event {
 		}
 	}
 
-	
+	.carousel-indicators {
+		top: 240px;
+	  }
+
 }
 
 // BT Theme 
@@ -404,6 +498,14 @@ li.ecs-event {
 	}	
 }
 
+// Lang PlugIn
+#lang_sel_list {
+	float: right !important;
+}
+
+#lang_sel_list a, #lang_sel_list a:visited {
+	background: @brand-primary !important;
+}
 
  
 

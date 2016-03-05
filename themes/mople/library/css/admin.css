@@ -1,0 +1,69 @@
+/* Custom Style Admin -- by Adriano Caheté < http://profolio.com.br/?ref=mople-admin-style > */
+
+/*Empty boxes*/
+.metabox-holder .postbox-container .empty-container {
+	border:none;
+}
+
+#screen-meta-links #contextual-help-link-wrap,
+#wp-admin-bar-wp-logo,
+#wpmu-install-dashboard,
+.eventBritePluginPlug {
+    display: none;
+}
+
+#wpadminbar {
+	height:40px;
+}
+
+
+#wpadminbar .quicklinks > ul > li > a {
+	padding: 4px 8px;
+}
+
+#wpbody {
+	padding-top: 8px;
+}
+
+#wpadminbar,
+#wpadminbar .menupop .ab-sub-wrapper,
+#wpadminbar .shortlink-input {
+	background:#3498DB;
+}
+
+#wpadminbar a.ab-item, #wpadminbar > #wp-toolbar span.ab-label,
+#wpadminbar > #wp-toolbar span.noticon,
+#wpadminbar .ab-submenu .ab-item,
+#wpadminbar .quicklinks .menupop ul li a,
+#wpadminbar .quicklinks .menupop ul li a strong,
+#wpadminbar .quicklinks .menupop.hover ul li a,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a{
+	color:#FFF;
+}
+
+#wpadminbar .ab-top-menu > li.hover > .ab-item,
+#wpadminbar .ab-top-menu > li:hover > .ab-item,
+#wpadminbar .ab-top-menu > li > .ab-item:focus,
+#wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus {
+	background:#2276AE;
+	color:#DEDEDE;
+}
+
+#wpadminbar .quicklinks .menupop ul li a:focus,
+#wpadminbar .quicklinks .menupop ul li a:focus strong,
+#wpadminbar .quicklinks .menupop ul li a:hover,
+#wpadminbar .quicklinks .menupop ul li a:hover strong,
+#wpadminbar .quicklinks .menupop.hover ul li a:focus,
+#wpadminbar .quicklinks .menupop.hover ul li a:hover,
+#wpadminbar li #adminbarsearch.adminbar-focused::before,
+#wpadminbar li .ab-item:focus::before,
+#wpadminbar li a:focus .ab-icon::before,
+#wpadminbar li.hover .ab-icon::before,
+#wpadminbar li.hover .ab-item::before,
+#wpadminbar li:hover #adminbarsearch::before,
+#wpadminbar li:hover .ab-icon::before,
+#wpadminbar li:hover .ab-item::before,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover {
+	color:#DEDEDE;
+}

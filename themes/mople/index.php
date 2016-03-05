@@ -5,14 +5,14 @@
 
 			<div id="content" class="clearfix">
         <div class="row">
-			<div class="col-md-8 col-md-offset-2 clearfix" role="main">
+			<div class="col-md-10 col-md-offset-1 clearfix" role="main">
 <?php echo do_shortcode('[image-carousel orderby="rand interval="100""]'); ?>
             </div>
         </div>
         <div class="row ">
 			<div class="col-sm-6 col-md-4 clearfix" role="main">
 				<div class="boxHome box1">
-	              <?php $my_query = new WP_Query('page_id=30'); ?> 
+	              <?php $my_query = new WP_Query('page_id=30'); ?>
 					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 					<a href="<?php the_permalink(); ?>" name="<?php the_title(); ?>">
 						<span class="icon"></span>
@@ -24,7 +24,7 @@
             </div>
             <div class="col-sm-6 col-md-4 clearfix boxborder" role="main">
 				<div class="boxHome box2">
-	              <?php $my_query = new WP_Query('page_id=143'); ?> 
+	              <?php $my_query = new WP_Query('page_id=143'); ?>
 					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 					<a href="<?php the_permalink(); ?>" name="<?php the_title(); ?>">
 						<span class="icon"></span>
@@ -36,7 +36,7 @@
             </div>
             <div class="col-sm-12 col-md-4 clearfix" role="main">
 				<div class="boxHome box3">
-	              <?php $my_query = new WP_Query('page_id=135'); ?> 
+	              <?php $my_query = new WP_Query('page_id=135'); ?>
 					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 					<a href="<?php the_permalink(); ?>" name="<?php the_title(); ?>">
 						<span class="icon"></span>
@@ -51,9 +51,9 @@
         <div class="row">
 			<div class="col-sm-6 col-md-4 clearfix" role="main">
 				<div class="boxHome box4">
-	              <?php $my_query = new WP_Query('page_id=144'); ?> 
+	              <?php $my_query = new WP_Query('page_id=144'); ?>
 					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-					<a href="<?php the_permalink(); ?>" name="<?php the_title(); ?>">
+					<a href="http://www.mople.com.br/events/lista/" name="<?php the_title(); ?>">
 						<span class="icon"></span>
 						<h3><?php the_title(); ?></h3>
 						<?php the_meta(); ?>
@@ -63,7 +63,7 @@
             </div>
             <div class="col-sm-6 col-md-4 clearfix" role="main">
 				<div class="boxHome box5">
-	              <?php $my_query = new WP_Query('page_id=145'); ?> 
+	              <?php $my_query = new WP_Query('page_id=145'); ?>
 					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 					<a href="<?php the_permalink(); ?>" name="<?php the_title(); ?>">
 						<span class="icon"></span>
@@ -75,7 +75,7 @@
             </div>
             <div class="col-sm-12 col-md-4 clearfix" role="main">
 				<div class="boxHome box6">
-	              <?php $my_query = new WP_Query('page_id=137'); ?> 
+	              <?php $my_query = new WP_Query('page_id=137'); ?>
 					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 						<a href="<?php the_permalink(); ?>" name="<?php the_title(); ?>">
 						<span class="icon"></span>
