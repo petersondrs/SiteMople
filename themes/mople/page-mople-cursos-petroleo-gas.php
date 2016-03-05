@@ -80,18 +80,14 @@ Template Name: Mople Cursos Petroleo e Gas
 				# WP vars
 				 $postid = get_the_ID();
 			
-				if (get_field('list_soon')) {
-					$list_soonClass = 'hide';
-				}
-				else {
-					$list_soonClass = '';
-				}
+				$list_soonClass = '';
+				$list_soonText = '';
 			?>
-				<div class="row course_item <?php echo $list_soonClass ?> <?php echo($_GET ["hiddenOtherCourses"]) ?>" id="course_<?php the_ID(); ?>">
+				<div class="row course_item <?php echo($_GET ["hiddenOtherCourses"]) ?>" id="course_<?php the_ID(); ?>">
 					<div class="col-md-6 col-md-offset-1">
 						<div class="row">
 							<div class="col-md-12">
-								<h3><?php the_title(); ?> </h3>
+								<h3><?php echo $list_soonText; ?><?php the_title(); ?> </h3>
 							</div>
 							
 							

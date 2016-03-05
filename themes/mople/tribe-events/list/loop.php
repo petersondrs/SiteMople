@@ -18,6 +18,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php
 global $more;
 $more = false;
+
+
+
 ?>
 
 <div class="tribe-events-loop vcalendar">
@@ -29,7 +32,17 @@ $more = false;
 		<?php tribe_events_list_the_date_headers(); ?> 
 
 		<!-- Event  -->
-		<div id="course_<?php the_ID() ?>" class="course_item <?php tribe_events_event_classes() ?> " name="<?php the_title(); ?>">
+		<?php 
+			if (get_field('list_soon') || $list_days = null || !$list_days) {
+				$list_soonClass = 'hide';
+				$list_soonText = '[Em Breve] ';
+			}
+			else {
+				$list_soonClass = '';
+				$list_soonText = '';
+			}
+		?>
+		<div id="course_<?php the_ID() ?>" class="course_item <?php echo $list_soonClass ?> <?php tribe_events_event_classes() ?> " name="<?php the_title(); ?>">
 			<?php tribe_get_template_part( 'list/single', 'event' ) ?> 
 				
 
